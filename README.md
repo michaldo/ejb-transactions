@@ -13,3 +13,5 @@ Output is
 
 
 Because unchecked exception is @ApplicationException(rollback=false) why insert action is rolled back?
+
+##### Answer: incorrect transaction annotations: should be javax.ejb.TransactionAttribute
