@@ -36,7 +36,7 @@ public class Start {
 		} catch (Exception e) {
 			System.out.println("Start unchecked exception catched");
 		}
-		list(); // 2 : Why not 3?
+		list(); // it now prints 3 bc none of Exceptions is marked for rollback
 
 	}
 
